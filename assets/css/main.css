@@ -1,0 +1,89 @@
+/*======================
+Common Css Starts 
+========================*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  resize: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  /* line-height: 1.5em; */
+}
+
+body {
+  /* color: #1f1f1f; */
+  font-family: "Roboto", sans-serif;
+  /* line-height: 1.5em; */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.containerC {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 94%;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+a {
+  text-decoration: none;
+  /* color: #a4a4a4; */
+  display: inline-block;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:focus,
+input:focus,
+button:focus,
+textarea:focus {
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* font-family: "Source Sans Pro", sans-serif; */
+  font-weight: 700;
+  /* font-size: unset; */
+}
+
+ul {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+}
+
+input,
+button,
+textarea {
+  /* padding: 10px 20px; */
+  /* background: #fafafa; */
+  resize: none;
+}
+
+/*=======================
+    Common Css Ends 
+    =========================*/
+
+/*# sourceMappingURL=main.css.map */
