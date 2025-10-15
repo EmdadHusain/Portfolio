@@ -1,0 +1,14 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "C:/Users/meano/OneDrive/Desktop/BoilerPlate2025"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "PortFolio_Traversy",
+    "liveServer.settings.port": 5501
+  }
+}
