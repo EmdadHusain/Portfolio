@@ -23,6 +23,36 @@ $home-img: url(../img/background.jpg);
     }
   }
 }
+
+@function set-text-color($color) {
+  @if (lightness($color) > 40) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}
+
+// Responsive
+@mixin min640 {
+  @media (min-width: 640px) {
+    @content;
+  }
+}
+@mixin min768 {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+@mixin min825 {
+  @media (min-width: 825px) {
+    @content;
+  }
+}
+@mixin max991 {
+  @media (max-width: 991px) {
+    @content;
+  }
+}
 @mixin maxMd {
   @media (max-width: 767px) {
     @content;
@@ -35,6 +65,11 @@ $home-img: url(../img/background.jpg);
   }
 }
 
+@mixin max525 {
+  @media (max-width: 525px) {
+    @content;
+  }
+}
 @mixin max425 {
   @media (max-width: 425px) {
     @content;

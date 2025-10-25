@@ -1,0 +1,47 @@
+#about{
+  .lg-heading{
+    margin-top: 2.5rem;
+  }
+  .sm-heading{
+    font-size: 1.5rem;
+  margin-bottom: 2rem;
+  }
+}
+.about-info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  margin-bottom: 30px;
+  .about-img {
+    // background: url(../img/portrait_small.jpg) no-repeat center/cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid $secondary-color;
+  }
+  .bio-desc {
+    h2{
+        text-align:center;
+        margin-bottom: 4px;
+    }
+    p {
+      font-size: 1.1rem;
+    }
+  }
+}
+.job-items-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  margin-bottom: 30px;
+  .job-item {
+    background:lighten($primary-color,5);
+    border-bottom: 5px solid $secondary-color;
+    border-radius: 3px;
+    padding: 0.5rem;
+    img {
+      border-radius: 43x;
+    }
+  }
+}

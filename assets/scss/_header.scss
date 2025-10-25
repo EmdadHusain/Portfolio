@@ -17,7 +17,7 @@ header {
     width: 28px;
     height: 3px;
     margin-bottom: 5px;
-    background: #fff;
+    background: set-text-color($primary-color);
     border-radius: 2px;
     @include easeOut;
   }
@@ -49,7 +49,7 @@ header {
   height: 100vh;
   opacity: 0.9;
   visibility: hidden;
-  display:flex;
+  display: flex;
   &.show {
     visibility: visible;
     .main-menu {
@@ -76,9 +76,9 @@ header {
     justify-content: center;
     align-items: center;
     gap: 32px;
-/*     float: left; */
-/*     width: 50%; */
-    flex:1;
+    /*     float: left; */
+    /*     width: 50%; */
+    flex: 1;
     height: 100vh;
     overflow: hidden;
   }
@@ -101,7 +101,7 @@ header {
         font-size: 30px;
         font-weight: 500;
         text-transform: uppercase;
-        color: #fff;
+        color: set-text-color($primary-color);
         @include easeOut;
         // padding: 1rem 0;
 
@@ -128,10 +128,13 @@ header {
     background: rgba(darken($primary-color, 5), 0.5);
   }
 }
+#about-page .menu-area .menu_img {
+  background: rgba(0, 0, 0, 0.8);
+}
 
 main {
   padding: 2rem;
-  height: 100vh;
+  min-height: calc(100vh - 20px);
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
